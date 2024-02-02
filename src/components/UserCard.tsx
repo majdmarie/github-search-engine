@@ -1,9 +1,9 @@
 // User card component that can be called to display users avatar and name, usually this component is used as a part of a list.
 import React from 'react';
-import fullStarIcon from './fullStar.svg';
-import emptyStarIcon from './emptyStar.svg';
+import fullStarIcon from '../icons/fullStar.svg';
+import emptyStarIcon from '../icons/emptyStar.svg';
 import { Link } from 'react-router-dom';
-import { UserDetails } from './models';
+import { UserDetails } from '../models';
 
 // Define the props for the UserCard component
 interface UserCardProps {

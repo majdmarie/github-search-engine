@@ -1,9 +1,9 @@
 import { useState, } from 'react';
 import { useNavigate } from 'react-router-dom';
-import leftArrowIcon from './leftArrow.svg';
-import fullStarIcon from './fullStar.svg';
+import leftArrowIcon from './icons/leftArrow.svg';
+import fullStarIcon from './icons/fullStar.svg';
 import { UserDetails } from './models';
-import UserCard from './UserCard';
+import UserCard from './components/UserCard';
 
 interface FavoritesUserProps {
     toggleFavorite: (user: UserDetails) => void;

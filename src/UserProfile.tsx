@@ -1,11 +1,11 @@
 // A profile page to show user details
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import leftArrowIcon from './leftArrow.svg';
-import emptyStarIcon from './emptyStar.svg';
-import fullStarIcon from './fullStar.svg';
+import leftArrowIcon from './icons/leftArrow.svg';
+import emptyStarIcon from './icons/emptyStar.svg';
+import fullStarIcon from './icons/fullStar.svg';
 import { UserDetails } from './models';
-import UserDetailsCard from './UserDetailsCard'; // Import UserDetailsCard component
+import UserDetailsCard from './components/UserDetailsCard'; // Import UserDetailsCard component
 
 function UserProfile() {
     const navigate = useNavigate();

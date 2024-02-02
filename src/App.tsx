@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import UserProfile from "./UserProfile";
 import FavoriteUsers from "./FavoriteUsers";
-import searchIcon from "./search.svg";
-import favoritesListIcon from "./favoritesList.svg";
+import searchIcon from "./icons/search.svg";
+import favoritesListIcon from "./icons/favoritesList.svg";
 import { UserDetails } from "./models";
 import "./App.css";
-import UserCard from "./UserCard";
+import UserCard from "./components/UserCard";
 
 interface GitHubApiResponse {
   items: UserDetails[];

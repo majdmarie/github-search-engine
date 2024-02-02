@@ -1,8 +1,8 @@
 // A card component that displays well-styled details about the user
 import React from 'react';
-import fullStarIcon from './fullStar.svg';
-import emptyStarIcon from './emptyStar.svg';
-import { UserDetails } from './models';
+import fullStarIcon from '../icons/fullStar.svg';
+import emptyStarIcon from '../icons/emptyStar.svg';
+import { UserDetails } from '../models';
 
 // Props that are received by the parent
 interface UserDetailsCardProps {
